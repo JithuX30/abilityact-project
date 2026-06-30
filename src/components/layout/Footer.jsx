@@ -7,21 +7,21 @@ const QUICK_LINKS = [
   { label: "About us", href: "/about" },
   { label: "Advice and support", href: "/advice-and-support" },
   { label: "For employers", href: "/for-employers" },
-  { label: "Get involved", href: "/get-involved" },
-  { label: "News", href: "/news" },
-  { label: "Jobs", href: "/jobs" },
+  { label: "Get involved", href: "/get-involved/volunteer" },
+  { label: "News and stories", href: "/news-and-stories" },
+  { label: "Jobs and opportunities", href: "/jobs-and-opportunities" },
 ];
 
 const SUPPORT_LINKS = [
   { label: "Contact us", href: "/contact" },
   { label: "Ask Arasi", href: "/ask-arasi" },
   { label: "Accessibility statement", href: "/accessibility" },
-  { label: "Emergency contacts", href: "/emergency" },
+  { label: "Emergency contacts", href: "/emergency-contacts" },
 ];
 
 const LEGAL_LINKS = [
-  { label: "Privacy policy", href: "/privacy" },
-  { label: "Cookie policy", href: "/cookies" },
+  { label: "Privacy policy", href: "/privacy-policy" },
+  { label: "Cookie policy", href: "/cookie-policy" },
   { label: "Safeguarding policy", href: "/safeguarding" },
   { label: "Accessibility statement", href: "/accessibility" },
 ];

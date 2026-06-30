@@ -41,14 +41,14 @@ const NAV_ITEMS = [
   },
   {
     label: "Get involved",
-    href: "/get-involved",
+    href: "/get-involved/volunteer",
     children: [
-      { label: "Volunteer with us", href: "/get-involved" },
-      { label: "Donate", href: "/get-involved" },
-      { label: "Partner with us", href: "/get-involved" },
+      { label: "Volunteer with us", href: "/get-involved/volunteer" },
+      { label: "Events", href: "/get-involved/events" },
+      { label: "Partner with us", href: "/get-involved/partner" },
     ],
   },
-  { label: "News and stories", href: "/news" },
+  { label: "News and stories", href: "/news-and-stories" },
 ];
 
 function DropdownMenu({ items, isOpen }) {
