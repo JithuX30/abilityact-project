@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Search, ChevronDown, Menu, X, ChevronRight } from "lucide-react";
 import { TOPIC_DATA } from "@/lib/advice-data";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const ADVICE_CHILDREN = Object.values(TOPIC_DATA).map((topic) => ({
   label: topic.name,
@@ -168,6 +169,7 @@ export default function Header() {
 
             {/* Utility bar */}
             <div className="hidden lg:flex items-center gap-3 ml-auto shrink-0">
+              <LanguageSwitcher />
               <button
                 aria-label="Search"
                 className="p-2 text-[#524D63] hover:text-[#6B4E9E] hover:bg-[#F7F3FC] rounded-lg transition-colors"
@@ -270,6 +272,7 @@ export default function Header() {
               })}
 
               <div className="mt-6 flex flex-col gap-3">
+                <LanguageSwitcher className="w-full [&>button]:w-full [&>button]:justify-center" />
                 <button
                   onClick={() => document.dispatchEvent(new CustomEvent("open-accessibility-panel"))}
                   className="w-full py-3 text-sm text-[#524D63] border border-[#E8E4F0] rounded-lg"
