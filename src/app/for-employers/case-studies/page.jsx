@@ -157,7 +157,7 @@ export default function CaseStudiesPage() {
       </section>
 
       {/* ── SECTION 4: CTA ───────────────────────────────────── */}
-      <section className="bg-[#E07856] py-14" aria-labelledby="cases-cta-heading">
+      <section className="bg-[#C0532F] py-14" aria-labelledby="cases-cta-heading">
         <div className="max-w-2xl mx-auto px-4 sm:px-6 text-center">
           <h2
             id="cases-cta-heading"

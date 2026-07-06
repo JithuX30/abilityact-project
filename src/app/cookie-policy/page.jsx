@@ -245,6 +245,7 @@ export default function CookiePolicyPage() {
                     className="text-[#6B4E9E] underline"
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label="ICO's guidance on cookies (opens in a new tab)"
                   >
                     ICO&apos;s guidance on cookies
                   </a>{" "}

@@ -119,7 +119,7 @@ export default function AdviceHubPage() {
                   key={topic.slug}
                   href={`/advice-and-support/${topic.slug}`}
                   aria-label={`${topic.name} — ${topic.description}`}
-                  className="group block bg-white border border-[#E8E4F0] rounded-2xl p-6 hover:border-[#6B4E9E] hover:shadow-[0_6px_20px_rgba(31,27,46,0.10)] hover:-translate-y-0.5 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#6B4E9E] focus-visible:ring-offset-2"
+                  className="group block bg-white border border-[#E8E4F0] rounded-2xl p-6 hover:border-[#6B4E9E] hover:shadow-[0_6px_20px_rgba(31,27,46,0.10)] motion-safe:hover:-translate-y-0.5 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#6B4E9E] focus-visible:ring-offset-2"
                 >
                   <div className="flex items-start gap-4">
                     <div className="w-11 h-11 rounded-xl bg-[#EDE6F7] flex items-center justify-center shrink-0">

@@ -57,7 +57,7 @@ export default function PathwayCards() {
                 group block bg-white border border-[#E8E4F0] rounded-2xl p-6
                 shadow-[0_2px_8px_rgba(31,27,46,0.06)]
                 hover:shadow-[0_8px_24px_rgba(31,27,46,0.12)]
-                hover:-translate-y-1
+                motion-safe:hover:-translate-y-1
                 transition-all duration-200
                 ${accent.border}
                 focus-visible:outline-none focus-visible:ring-2

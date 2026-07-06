@@ -220,6 +220,7 @@ export default function PrivacyPolicyPage() {
                     className="text-[#6B4E9E] underline"
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label="Information Commissioner's Office (ICO) (opens in a new tab)"
                   >
                     Information Commissioner&apos;s Office (ICO)
                   </a>

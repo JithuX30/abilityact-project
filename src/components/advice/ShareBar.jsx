@@ -16,22 +16,22 @@ export default function ShareBar({ title }) {
   const shareLinks = [
     {
       icon: Facebook,
-      label: "Share on Facebook",
+      label: "Share on Facebook (opens in a new tab)",
       href: `https://www.facebook.com/sharer/sharer.php?u=${encoded}`,
     },
     {
       icon: Twitter,
-      label: "Share on X (Twitter)",
+      label: "Share on X (Twitter) (opens in a new tab)",
       href: `https://twitter.com/intent/tweet?text=${encoded}`,
     },
     {
       icon: Linkedin,
-      label: "Share on LinkedIn",
+      label: "Share on LinkedIn (opens in a new tab)",
       href: `https://www.linkedin.com/sharing/share-offsite/?url=${encoded}`,
     },
     {
       icon: MessageCircle,
-      label: "Share via WhatsApp",
+      label: "Share via WhatsApp (opens in a new tab)",
       href: `https://wa.me/?text=${encoded}`,
     },
     {

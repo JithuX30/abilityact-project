@@ -216,7 +216,7 @@ export default function AskArasiWidget() {
           ref={triggerRef}
           onClick={() => { setIsOpen(true); setIsMinimised(false); }}
           aria-label="Open Ask Arasi chat"
-          className="fixed bottom-6 right-6 sm:right-6 left-auto sm:left-auto z-40 flex items-center gap-2 px-4 py-3 bg-[#6B4E9E] text-white rounded-full shadow-lg hover:bg-[#8B6BC4] transition-all hover:-translate-y-0.5"
+          className="fixed bottom-6 right-6 sm:right-6 left-auto sm:left-auto z-40 flex items-center gap-2 px-4 py-3 bg-[#6B4E9E] text-white rounded-full shadow-lg hover:bg-[#8B6BC4] transition-all motion-safe:hover:-translate-y-0.5"
         >
           <MessageCircle size={20} />
           <span className="text-sm font-medium">Ask Arasi</span>

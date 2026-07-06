@@ -76,7 +76,7 @@ export default function EmergencyContactsPage() {
       {/* ── CRITICAL BANNER ───────────────────────────────────── */}
       <div
         className="bg-red-700 text-white py-5"
-        role="banner"
+        role="alert"
         aria-label="Emergency alert"
       >
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -220,6 +220,7 @@ export default function EmergencyContactsPage() {
               className="text-red-700 underline"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="emergencysms.net (opens in a new tab)"
             >
               emergencysms.net
             </a>{" "}

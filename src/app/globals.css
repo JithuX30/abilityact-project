@@ -6,7 +6,7 @@
   --color-purple-500: #8B6BC4;
   --color-purple-100: #EDE6F7;
   --color-purple-50: #F7F3FC;
-  --color-coral-500: #E07856;
+  --color-coral-500: #C0532F;
   --color-coral-100: #FBEAE3;
   --color-ink-900: #1F1B2E;
   --color-ink-600: #524D63;
@@ -121,4 +121,16 @@ html.reduce-motion *::before,
 html.reduce-motion *::after {
   animation-duration: 0.001ms !important;
   transition-duration: 0.001ms !important;
+}
+
+/* Also honour the OS-level preference automatically,
+   independent of the toolbar toggle. The Accessibility Statement
+   says the site respects this — this rule makes that true. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
 }

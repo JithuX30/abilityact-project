@@ -187,8 +187,8 @@ export default function Header() {
                 Contact us
               </Link>
               <Link
-                href="/get-support"
-                className="h-10 px-5 bg-[#E07856] text-white text-sm font-medium rounded-lg hover:bg-[#c8684a] transition-all hover:-translate-y-0.5 inline-flex items-center"
+                href="/advice-and-support"
+                className="h-10 px-5 bg-[#C0532F] text-white text-sm font-medium rounded-lg hover:bg-[#A8421F] transition-all motion-safe:hover:-translate-y-0.5 inline-flex items-center"
               >
                 Get support
               </Link>
@@ -197,8 +197,8 @@ export default function Header() {
             {/* Mobile: Get support + hamburger */}
             <div className="flex lg:hidden items-center gap-3 ml-auto">
               <Link
-                href="/get-support"
-                className="h-9 px-4 bg-[#E07856] text-white text-sm font-medium rounded-lg hover:bg-[#c8684a] transition-colors inline-flex items-center"
+                href="/advice-and-support"
+                className="h-9 px-4 bg-[#C0532F] text-white text-sm font-medium rounded-lg hover:bg-[#A8421F] transition-colors inline-flex items-center"
               >
                 Get support
               </Link>

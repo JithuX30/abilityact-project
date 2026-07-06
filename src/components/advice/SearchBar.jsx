@@ -76,13 +76,8 @@ export default function SearchBar({ articles }) {
 
   return (
     <div ref={containerRef} className="relative w-full max-w-2xl mx-auto">
-      {/* Combobox wrapper for ARIA */}
-      <div
-        role="combobox"
-        aria-expanded={showDropdown}
-        aria-haspopup="listbox"
-        aria-owns="search-listbox"
-      >
+      {/* Combobox — role belongs on the <input> per ARIA 1.2 */}
+      <div>
         <label htmlFor="advice-search" className="sr-only">
           Search advice articles
         </label>
@@ -97,6 +92,7 @@ export default function SearchBar({ articles }) {
             ref={inputRef}
             id="advice-search"
             type="search"
+            role="combobox"
             autoComplete="off"
             value={query}
             onChange={(e) => {
@@ -106,6 +102,8 @@ export default function SearchBar({ articles }) {
             onFocus={() => setIsOpen(true)}
             onKeyDown={handleKeyDown}
             placeholder="Search advice — e.g. PIP, workplace adjustments, housing"
+            aria-expanded={showDropdown}
+            aria-haspopup="listbox"
             aria-autocomplete="list"
             aria-controls="search-listbox"
             aria-activedescendant={

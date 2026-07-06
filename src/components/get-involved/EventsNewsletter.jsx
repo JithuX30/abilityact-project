@@ -25,7 +25,7 @@ export default function EventsNewsletter() {
       />
       <button
         type="submit"
-        className="h-12 px-6 bg-[#2A7A4B] text-white font-medium rounded-lg hover:bg-[#226040] transition-all hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#2A7A4B] focus-visible:ring-offset-2 whitespace-nowrap"
+        className="h-12 px-6 bg-[#2A7A4B] text-white font-medium rounded-lg hover:bg-[#226040] transition-all motion-safe:hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#2A7A4B] focus-visible:ring-offset-2 whitespace-nowrap"
       >
         Subscribe
       </button>

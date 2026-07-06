@@ -276,7 +276,7 @@ export default function ContactForm() {
 
       <button
         type="submit"
-        className="h-12 px-8 bg-[#6B4E9E] text-white font-medium rounded-lg hover:bg-[#8B6BC4] transition-all hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#6B4E9E] focus-visible:ring-offset-2"
+        className="h-12 px-8 bg-[#6B4E9E] text-white font-medium rounded-lg hover:bg-[#8B6BC4] transition-all motion-safe:hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#6B4E9E] focus-visible:ring-offset-2"
       >
         Send message
       </button>

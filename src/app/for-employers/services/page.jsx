@@ -274,7 +274,7 @@ export default function ServicesPage() {
 
                 {/* Circle + horizontal connector row (desktop) */}
                 <div className="flex lg:flex-col lg:items-center w-auto lg:w-full relative">
-                  <div className="w-10 h-10 rounded-full bg-[#E07856] text-white font-bold text-base flex items-center justify-center shrink-0 z-10 shadow-sm">
+                  <div className="w-10 h-10 rounded-full bg-[#C0532F] text-white font-bold text-base flex items-center justify-center shrink-0 z-10 shadow-sm">
                     <span aria-hidden="true">{i + 1}</span>
                     <span className="sr-only">Step {i + 1}:</span>
                   </div>
@@ -328,7 +328,7 @@ export default function ServicesPage() {
 
       {/* ── SECTION 5: CTA band ───────────────────────────────── */}
       <section
-        className="bg-[#E07856] py-14"
+        className="bg-[#C0532F] py-14"
         aria-labelledby="services-cta-heading"
       >
         <div className="max-w-2xl mx-auto px-4 sm:px-6 text-center">

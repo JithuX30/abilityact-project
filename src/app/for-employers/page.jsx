@@ -202,11 +202,10 @@ export default function ForEmployersPage() {
               >
                 <p
                   className="text-[2.25rem] font-bold text-[#E07856] leading-none mb-1"
-                  aria-hidden="true"
                   style={{ fontFamily: "var(--font-heading)" }}
                 >
-                  {value}
-                  <span className="text-xl">{unit}</span>
+                  <span className="sr-only">{value}{unit} — </span>
+                  <span aria-hidden="true">{value}<span className="text-xl">{unit}</span></span>
                 </p>
                 <p className="font-semibold text-[#1F1B2E] text-sm mb-2">
                   {label}
@@ -444,7 +443,7 @@ export default function ForEmployersPage() {
 
       {/* ── SECTION 7: CTA band ───────────────────────────────── */}
       <section
-        className="bg-[#E07856] py-14"
+        className="bg-[#C0532F] py-14"
         aria-labelledby="employers-cta-heading"
       >
         <div className="max-w-2xl mx-auto px-4 sm:px-6 text-center">

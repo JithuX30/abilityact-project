@@ -121,12 +121,13 @@ export default function AccessibilityToolbar() {
       {/* Live region for announcements */}
       <div ref={liveRef} aria-live="polite" aria-atomic="true" className="sr-only" />
 
-      {/* Panel */}
+      {/* Panel — inert when closed so keyboard users cannot Tab into off-screen buttons */}
       <div
         ref={panelRef}
         role="dialog"
         aria-modal="true"
         aria-label="Accessibility settings"
+        inert={!isOpen}
         className={`fixed top-0 right-0 h-full w-80 bg-white shadow-2xl z-50 flex flex-col transition-transform duration-300 ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}

@@ -36,7 +36,7 @@ export default function HeroSection() {
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
-              <Button variant="cta" href="/get-support">
+              <Button variant="cta" href="/advice-and-support">
                 Get support
               </Button>
               <Button variant="secondary" href="/for-employers">

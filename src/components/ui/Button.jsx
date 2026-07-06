@@ -10,7 +10,7 @@ const variantClasses = {
     "bg-transparent text-[#6B4E9E] border border-[#6B4E9E] hover:bg-[#EDE6F7]",
   tertiary:
     "bg-transparent text-[#6B4E9E] border-none underline-offset-2 hover:underline p-0 h-auto inline-flex",
-  cta: "bg-[#E07856] text-white hover:bg-[#c8684a] border border-transparent",
+  cta: "bg-[#C0532F] text-white hover:bg-[#A8421F] border border-transparent",
 };
 
 export default function Button({
@@ -26,7 +26,7 @@ export default function Button({
     isTertiary ? "" : "h-12 px-6 rounded-lg font-medium",
     "inline-flex items-center gap-2 cursor-pointer",
     "transition-all duration-200 ease-in-out",
-    "hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2",
+    "motion-safe:hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2",
     "focus-visible:ring-[#6B4E9E] focus-visible:ring-offset-2",
     "disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:translate-y-0",
     variantClasses[variant],

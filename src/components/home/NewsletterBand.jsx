@@ -38,11 +38,11 @@ export default function NewsletterBand() {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             placeholder="Your email address"
-            className="flex-1 px-4 py-3 rounded-lg border border-[#E8E4F0] bg-white text-[#1F1B2E] placeholder-[#8B8699] text-sm focus:outline-none focus:ring-2 focus:ring-[#E07856] focus:border-transparent"
+            className="flex-1 px-4 py-3 rounded-lg border border-[#E8E4F0] bg-white text-[#1F1B2E] placeholder-[#8B8699] text-sm focus:outline-none focus:ring-2 focus:ring-[#C0532F] focus:border-transparent"
           />
           <button
             type="submit"
-            className="h-12 px-6 bg-[#E07856] text-white font-medium rounded-lg hover:bg-[#c8684a] transition-all hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#E07856] focus-visible:ring-offset-2 whitespace-nowrap"
+            className="h-12 px-6 bg-[#C0532F] text-white font-medium rounded-lg hover:bg-[#A8421F] transition-all motion-safe:hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#C0532F] focus-visible:ring-offset-2 whitespace-nowrap"
           >
             Subscribe
           </button>
@@ -51,7 +51,7 @@ export default function NewsletterBand() {
         <p className="mt-4 text-xs text-[#8B8699]">
           We&apos;ll only use your email to send updates.{" "}
           <Link
-            href="/privacy"
+            href="/privacy-policy"
             className="underline hover:text-[#524D63] transition-colors"
           >
             Read our privacy policy

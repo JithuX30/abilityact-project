@@ -43,7 +43,7 @@ export default function NeedToTalkBand() {
             onClick={() =>
               document.dispatchEvent(new CustomEvent("open-arasi-widget"))
             }
-            className="inline-flex items-center gap-2 h-12 px-6 bg-[#E07856] text-white font-medium rounded-lg hover:bg-[#c8684a] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#6B4E9E]"
+            className="inline-flex items-center gap-2 h-12 px-6 bg-[#C0532F] text-white font-medium rounded-lg hover:bg-[#A8421F] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#6B4E9E]"
           >
             <MessageCircle size={16} aria-hidden="true" />
             Ask Arasi

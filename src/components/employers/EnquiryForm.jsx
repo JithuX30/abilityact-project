@@ -374,7 +374,7 @@ export default function EnquiryForm() {
       {/* Submit */}
       <button
         type="submit"
-        className="h-12 px-8 bg-[#E07856] text-white font-medium rounded-lg hover:bg-[#c8684a] transition-all hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#E07856] focus-visible:ring-offset-2"
+        className="h-12 px-8 bg-[#C0532F] text-white font-medium rounded-lg hover:bg-[#A8421F] transition-all motion-safe:hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#C0532F] focus-visible:ring-offset-2"
       >
         Send enquiry
       </button>

@@ -50,7 +50,7 @@ export default function SignLanguageSection() {
               <button
                 type="button"
                 aria-label="Play video — Introduction to AbilityAction in BSL (British Sign Language)"
-                className="relative z-10 w-16 h-16 rounded-full bg-white/90 flex items-center justify-center shadow-lg hover:bg-white hover:scale-110 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#1F1B2E]"
+                className="relative z-10 w-16 h-16 rounded-full bg-white/90 flex items-center justify-center shadow-lg hover:bg-white motion-safe:hover:scale-110 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#1F1B2E]"
               >
                 <Play
                   size={24}
